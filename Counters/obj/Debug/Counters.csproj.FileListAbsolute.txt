@@ -1,0 +1,6 @@
+C:\Users\Maia\Documents\Visual Studio 2012\Projects\GithubBlog\PerformanceCounterSamples\Counters\bin\Debug\Counters.exe.config
+C:\Users\Maia\Documents\Visual Studio 2012\Projects\GithubBlog\PerformanceCounterSamples\Counters\obj\Debug\Counters.csprojResolveAssemblyReference.cache
+C:\Users\Maia\Documents\Visual Studio 2012\Projects\GithubBlog\PerformanceCounterSamples\Counters\bin\Debug\Counters.exe
+C:\Users\Maia\Documents\Visual Studio 2012\Projects\GithubBlog\PerformanceCounterSamples\Counters\bin\Debug\Counters.pdb
+C:\Users\Maia\Documents\Visual Studio 2012\Projects\GithubBlog\PerformanceCounterSamples\Counters\obj\Debug\Counters.exe
+C:\Users\Maia\Documents\Visual Studio 2012\Projects\GithubBlog\PerformanceCounterSamples\Counters\obj\Debug\Counters.pdb
