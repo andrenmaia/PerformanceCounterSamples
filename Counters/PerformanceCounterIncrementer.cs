@@ -30,24 +30,24 @@ namespace Counters
                     var tick = GetTickForPerfCounter();
 
                     // Se o tick for par, incrementa, caso contrário, decrementa
-                    //if (tick % 2 == 0)
-                    //{
-                    media.IncrementBy(tick);
-                    mediaBase.Increment();
-                    diferenca.Increment();
-                    instantanea.IncrementBy(5);
-                    porcentagem.Increment();
-                    taxa.Increment();
-                    //}
-                    //else
-                    //{
-                    //    media.IncrementBy(tick);
-                    //    mediaBase.Decrement();
-                    //    diferenca.Decrement();
-                    //    instantanea.Decrement();
-                    //    porcentagem.Decrement();
-                    //    taxa.Decrement();
-                    //}
+                    if (tick % 2 == 0)
+                    {
+                        media.IncrementBy(tick);
+                        mediaBase.Increment();
+                        diferenca.Increment();
+                        instantanea.IncrementBy(5);
+                        porcentagem.Increment();
+                        taxa.Increment();
+                    }
+                    else
+                    {
+                        media.IncrementBy(tick);
+                        mediaBase.Decrement();
+                        diferenca.Decrement();
+                        instantanea.Decrement();
+                        porcentagem.Decrement();
+                        taxa.Decrement();
+                    }
 
 
                     Console.WriteLine("Atualizou o valor dos contadores.");
