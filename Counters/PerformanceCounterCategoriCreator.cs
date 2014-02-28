@@ -12,8 +12,6 @@ namespace Counters
 
         internal void Create()
         {
-            PerformanceCounterCategory.Delete(NOME_CATEGORIA);
-
             // 1. Verifica se a categoria já existe
             if (!PerformanceCounterCategory.Exists(NOME_CATEGORIA))
             {
